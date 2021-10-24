@@ -63,7 +63,6 @@ body {
     font-weight: bold;
     cursor: pointer;
 }
-
 .nav {
     display: flex;
     justify-content: flex-end;
@@ -125,7 +124,6 @@ body {
     text-align: center;
     color: #4c2d33;
 }
-
 .similarity {
     display: flex;
     width: 1300px;
@@ -144,6 +142,17 @@ body {
 .similarity .fonts {
     margin-left: 10px;
     width: 400px;
+}
+.more {
+    width: 100px;
+    height: 30px;
+    background: #4c2d33;
+    line-height: 25px;
+    cursor: pointer;
+    margin: 15px auto;
+}
+.more > li > a {
+    color: #fff;
 }
 
 /* information */
@@ -195,13 +204,16 @@ body {
 .contact > ul > li > div {
     color: #fff;
 }
-.more {
+.learn_more {
     width: 220px;
     height: 40px;
     border: 1px solid #fff;
     line-height: 40px;
     cursor: pointer;
     margin: 20px auto;
+}
+.learn_more > li > a {
+    color: #fff;
 }
 
 /* footer */
